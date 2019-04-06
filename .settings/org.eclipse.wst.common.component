@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><project-modules id="moduleCoreId" project-version="1.5.0">
-    <wb-module deploy-name="spring-mvc-hello-world-example-mkyong-0.0.1-SNAPSHOT">
+    <wb-module deploy-name="spring2-mvc-xml-hello-world-1.0-SNAPSHOT">
         <wb-resource deploy-path="/" source-path="/target/m2e-wtp/web-resources"/>
         <wb-resource deploy-path="/" source-path="/src/main/webapp" tag="defaultRootSource"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/main/java"/>
-        <property name="context-root" value="spring-mvc-hello-world-example-mkyong"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src/test/java"/>
         <property name="java-output-path" value="/spring-mvc-hello-world-example-mkyong/target/classes"/>
+        <property name="context-root" value="spring2-mvc-xml-hello-world"/>
     </wb-module>
 </project-modules>
