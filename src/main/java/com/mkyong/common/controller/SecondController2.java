@@ -7,11 +7,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
 import org.springframework.web.servlet.mvc.AbstractController;
 
-public class HelloWorldController extends AbstractController {
-
-	@Override
-	protected ModelAndView handleRequestInternal(HttpServletRequest request, HttpServletResponse response)
-			throws Exception {
+public class SecondController2 {
+	@RequestMapping("/home")
+	protected ModelAndView handleRequestInternal(HttpServletRequest request, HttpServletResponse response) {
 
 		ModelAndView model = new ModelAndView("HelloWorldPage");
 		model.addObject("msg", "hello world");
