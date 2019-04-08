@@ -44,5 +44,10 @@ testCompile group: 'org.junit.vintage', name: 'junit-vintage-engine', version: '
     // https://mvnrepository.com/artifact/org.junit.platform/junit-platform-launcher
 testCompile group: 'org.junit.platform', name: 'junit-platform-launcher', version: '1.1.1'
  
+// https://mvnrepository.com/artifact/javax.servlet/servlet-api
+//provided group: 'javax.servlet', name: 'servlet-api', version: '3.0.1'
+// https://mvnrepository.com/artifact/javax.servlet/servlet-api
+// https://mvnrepository.com/artifact/javax.servlet/servlet-api
+provided group: 'javax.servlet', name: 'servlet-api', version: '2.5'
 
 }
