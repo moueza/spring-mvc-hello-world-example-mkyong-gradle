@@ -49,6 +49,8 @@ testCompile group: 'org.junit.platform', name: 'junit-platform-launcher', versio
 // https://mvnrepository.com/artifact/javax.servlet/servlet-api
 // https://mvnrepository.com/artifact/javax.servlet/servlet-api
 // https://mvnrepository.com/artifact/javax.servlet/javax.servlet-api
-providedCompile 'javax.servlet:javax.servlet-api:3.1.0'
+//providedCompile 'javax.servlet:javax.servlet-api:3.0.1'
+// https://mvnrepository.com/artifact/javax.servlet/servlet-api
+providedCompile 'javax.servlet:servlet-api:2.4'
 
 }
